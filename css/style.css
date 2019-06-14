@@ -25,6 +25,17 @@ body {
   background-color: #fff;
 }
 
+.content{
+  padding: 10%;
+  max-width: 1980px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* navigation styles */
 .nav {
   position: fixed;
@@ -201,5 +212,16 @@ body {
 
 /*TOP SECTION*/
 .top{
-  
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/top.jpg);
+}
+
+/*MAIN SECTION*/
+.top2{
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/top.jpg);
 }

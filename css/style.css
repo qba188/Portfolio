@@ -1,5 +1,3 @@
-
-/* page's styles !!!YOU NEED THEM */
 html,
 body {
   margin: 0;
@@ -7,33 +5,34 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
 .page,
 .page__content {
   position: relative;
 }
-
 .page {
   min-height: 100vh;
   -webkit-perspective: 1500px;
           perspective: 1500px;
   background-color: rgba(28, 28, 28, 0.5);
 }
-
 .page__content {
   min-height: 100vh;
   background-color: #fff;
 }
-
-.content{
+.main-content{
   padding: 10%;
   max-width: 1980px;
+  color: #ffffff;
+  background: transparent;
 }
-
 .center{
+  font-size: 3em;
+  padding-bottom: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 /* navigation styles */
@@ -96,8 +95,6 @@ body {
   width: 40px;
   height: 25px;
   cursor: pointer;
-  /* close icon elements */
-  /* hover effect */
 }
 .nav__close:before, .nav__close:after {
   transition-property: all;
@@ -153,11 +150,10 @@ body {
   opacity: 0;
   visibility: hidden;
 }
-
 .nav-open-btn__bar {
   width: 100%;
   height: 5px;
-  background-color: #1c1c1c;
+  background-color: #ffffff;
   border-radius: 20px;
 }
 .nav-open-btn__bar:nth-child(1) {
@@ -175,17 +171,13 @@ body {
   top: 20px;
   left: 0;
 }
-
-
-
-/* Demo #3: styles */
+/* nav */
 .nav--offcanvas-3 {
   transition-property: all;
   transition-duration: 0.2s;
   transition-timing-function: linear;
   transition-delay: 0s;
   left: -300px;
-  /* opened styles */
 }
 .nav--offcanvas-3.js-opened {
   transition-property: left;
@@ -196,7 +188,6 @@ body {
   opacity: 1;
   visibility: visible;
 }
-
 .page__content--offcanvas-3 {
   transition-property: all;
   transition-duration: 0.2s;
@@ -208,20 +199,4 @@ body {
 .page__content--offcanvas-3.js-opened {
   -webkit-transform: translate3d(100px, 0, -600px) rotateY(-20deg);
           transform: translate3d(100px, 0, -600px) rotateY(-20deg);
-}
-
-/*TOP SECTION*/
-.top{
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/top.jpg);
-}
-
-/*MAIN SECTION*/
-.top2{
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/top.jpg);
 }

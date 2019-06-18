@@ -92,6 +92,8 @@
 /*-----------------*/
 
 figure.effect-hera {
+	margin-left: auto; 
+	margin-right: auto;
 	background: #303fa9;
 }
 
@@ -216,7 +218,3 @@ figure.effect-hera:hover p i:empty {
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 .clearfix:before, .clearfix:after { display: table; content: ''; }
 .clearfix:after { clear: both; }
-
-body {
-	font-family: 'Raleway', Arial, sans-serif;
-}

@@ -21,6 +21,8 @@ body {
   background-color: #fff;
 }
 .main-content{
+  align-items: center;
+  text-align: center;
   padding: 10%;
   color: #ffffff;
   background: transparent;
@@ -197,6 +199,36 @@ body {
           transform: rotateY(0deg) translateX(0);
 }
 .page__content--offcanvas-3.js-opened {
-  -webkit-transform: translate3d(100px, 0, -600px) rotateY(-20deg);
-          transform: translate3d(100px, 0, -600px) rotateY(-20deg);
+  -webkit-transform: translate3d(100px, -600px, -600px) rotateY(-10deg);
+          transform: translate3d(100px, -600px, -600px) rotateY(-10deg);
+}
+
+#technologies{
+  background-image: url(../img/tbcg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.c-icons {
+  padding: 1em 0em 1em 0em;
+}
+.t-icons{
+  font-size: 200px;
+}
+
+.css{
+  background-image: url(../img/css.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 11em;
+  width: 11em;
+  background-size: 6em;
+}
+.bootstrap{
+  background-image: url(../img/bootstrap.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 11em;
+  width: 11em;
+  background-size: 6em;
 }

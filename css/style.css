@@ -203,13 +203,17 @@ body {
           transform: translate3d(100px, -600px, -600px) rotateY(-10deg);
 }
 
-#technologies{
+#technologies{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../img/tbcg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .c-icons {
+  max-width: unset;
   padding: 1em 0em 1em 0em;
 }
 .t-icons{

@@ -235,9 +235,13 @@ body {
 
 .btn{
   position: fixed;
-    right: 0;
-    bottom: 0;
-    margin: 1.5em;
-    text-decoration: none;
-    color: #ffff;;font-size: 40px;
+  right: 0;
+  bottom: 0;
+  margin: 0.5em;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 40px;
+}
+.btn:hover {
+  color: #ffff;
 }

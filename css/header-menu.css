@@ -219,7 +219,7 @@ main {
 }
 
 .demo-1 .date {
-	grid-area: 7 / 5 / auto / 20;
+	grid-area: 7 / 4 / auto / 20;
 }
 
 .demo-1 .grid__item:first-child {
@@ -231,11 +231,11 @@ main {
 }
 
 .demo-1 .grid__item:nth-child(3) {
-	grid-area: 4 / 7 / auto / 20;
+	grid-area: 4 / 4 / auto / 20;
 }
 
 .demo-1 .grid__item:nth-child(4) {
-	grid-area: 5 / 14 / auto / 20;
+	grid-area: 5 / 13 / auto / 20;
 }
 
 /* Header */

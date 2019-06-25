@@ -212,6 +212,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (max-width: 600px) {
+  #technologies {
+    background-size: cover;
+    background-image: url(../img/tbcgm.jpg);
+  }
+}
 .c-icons {
   max-width: unset;
   padding: 1em 0em 1em 0em;

@@ -108,14 +108,6 @@
 	width: 20%;
 }
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #92999f;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
-
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
@@ -126,6 +118,7 @@
 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
+	justify-content: space-around;
 }
 
 .footer-distributed .footer-icons a{
